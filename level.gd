@@ -4,6 +4,7 @@ extends Node2D
 
 func _ready():
 	$HUD.level(level_num)
+	
 	set_gems_label()
 	for gem in $Gems.get_children():
 		gem.gem_collected.connect(_on_gem_collected)

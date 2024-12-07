@@ -1,7 +1,7 @@
 extends CharacterBody2D
 
 const SPEED = 75.0
-const JUMP_VELOCITY = -300.0
+const JUMP_VELOCITY = -375.0
 
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 
@@ -28,3 +28,7 @@ func _physics_process(delta):
 		$AnimatedSprite2D.play("jump")
 
 	move_and_slide()
+
+
+	
+

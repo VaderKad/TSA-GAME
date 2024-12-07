@@ -1,9 +1,7 @@
-res://main_menu.tscn
-res://player.tscn
-res://player.gd
 res://level_1.tscn
-res://level_2.tscn
-res://level_3.tscn
-res://gem.tscn
-res://hud.tscn
 res://door.tscn
+res://player.tscn
+res://gem.tscn
+res://player.gd
+res://hud.gd
+res://level.gd
