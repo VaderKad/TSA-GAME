@@ -1,15 +1,16 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1733598212
+::res://::1733710612
 actiontheme-v3.ogg::AudioStreamOggVorbis::1868640125494842928::1733531673::1733531673::1::::<><>::
 annoyingwaltz.wav::AudioStreamWAV::566397278332251902::1733531673::1733531673::1::::<><>::
 Block.png::CompressedTexture2D::4801648549978642504::1733598212::1733598213::1::::<><>::
-Block.tscn::PackedScene::-1::1733598194::0::1::::<><>::
+Block.tscn::PackedScene::7019311287385683884::1733599361::0::1::::<><>::uid://can7pkkjqsio3::::res://Block.png
 door.gd::GDScript::-1::1733531673::0::1::::<>Area2D<>::
-door.tscn::PackedScene::5562045378903952438::1733593832::0::1::::<><>::uid://cmyw7fmkbaox3::::res://monochrome_tilemap_transparent.png<>res://door.gd
+door.tscn::PackedScene::5562045378903952438::1733599361::0::1::::<><>::uid://cmyw7fmkbaox3::::res://monochrome_tilemap_transparent.png<>res://door.gd
 export_presets.cfg::TextFile::-1::1733531673::0::1::::<><>::
 gem.gd::GDScript::-1::1733531673::0::1::::<>Area2D<>::
-gem.tscn::PackedScene::8875041672932205392::1733593832::0::1::::<><>::res://gem.gd<>uid://bqemvdpeko5d3::::res://item-removebg-preview.png<>uid://dxjgadwscnl7q::::res://gem.wav
+gem.tscn::PackedScene::8875041672932205392::1733599361::0::1::::<><>::res://gem.gd<>uid://bqemvdpeko5d3::::res://item-removebg-preview.png<>uid://dxjgadwscnl7q::::res://gem.wav
 gem.wav::AudioStreamWAV::8792549348873967428::1733531673::1733531673::1::::<><>::
+GEN.gd::GDScript::-1::1733598596::0::1::::<>Position2D<>::
 global.gd::GDScript::-1::1733531673::0::1::::<>Node<>::
 hud.gd::GDScript::-1::1733535131::0::1::::<>CanvasLayer<>::
 hud.tscn::PackedScene::2647498131295135244::1733531673::0::1::::<><>::res://hud.gd
@@ -17,11 +18,11 @@ icon.png::CompressedTexture2D::8514982757710319793::1733531673::1733531673::1:::
 item-removebg-preview.png::CompressedTexture2D::3518465979440865482::1733533663::1733533664::1::::<><>::
 jump.wav::AudioStreamWAV::3951892934470448449::1733531673::1733531673::1::::<><>::
 level.gd::GDScript::-1::1733535131::0::1::::<>Node2D<>::
-level_1.tscn::PackedScene::1508306663880462176::1733593832::0::1::::<><>::res://level.gd<>uid://cmyw7fmkbaox3::::res://monochrome_tilemap_transparent.png<>uid://cxur2c7wqp0bw::::res://tilemap.png<>uid://bdyp538fqygcq::::res://hud.tscn<>uid://cboi8hec4yf0c::::res://player.tscn<>uid://dyhdq6c1oj8yj::::res://tilemap-backgrounds_packed.png<>uid://clikcsot5ncta::::res://door.tscn<>uid://dypev0qrj3e6s::::res://gem.tscn
+level_1.tscn::PackedScene::1508306663880462176::1733599361::0::1::::<><>::res://level.gd<>uid://cmyw7fmkbaox3::::res://monochrome_tilemap_transparent.png<>uid://bdyp538fqygcq::::res://hud.tscn<>uid://cboi8hec4yf0c::::res://player.tscn<>uid://dyhdq6c1oj8yj::::res://tilemap-backgrounds_packed.png<>uid://clikcsot5ncta::::res://door.tscn<>uid://dypev0qrj3e6s::::res://gem.tscn
 level_2.tscn::PackedScene::2039222329313337961::1733531673::0::1::::<><>::res://level.gd<>uid://cmyw7fmkbaox3
 level_3.tscn::PackedScene::800320853885409146::1733531673::0::1::::<><>::res://level.gd<>uid://cmyw7fmkbaox3
 main_menu.gd::GDScript::-1::1733531673::0::1::::<>Node2D<>::
-main_menu.tscn::PackedScene::7707112913228405357::1733593832::0::1::::<><>::res://main_menu.gd
+main_menu.tscn::PackedScene::7707112913228405357::1733599361::0::1::::<><>::res://main_menu.gd
 monochrome_tilemap_transparent.png::CompressedTexture2D::5666045757995955506::1733593647::1733593653::1::::<><>::
 New Piskel-1.png.png::CompressedTexture2D::942134964995611778::1733532341::1733532341::1::::<><>::
 New Piskel-2.png.png::CompressedTexture2D::9114690284264569733::1733532341::1733532341::1::::<><>::
@@ -29,9 +30,8 @@ New Piskel-3.png.png::CompressedTexture2D::6672250479610508360::1733532341::1733
 New Piskel-4.png.png::CompressedTexture2D::32197865099075594::1733532341::1733532341::1::::<><>::
 New Piskel-5.png.png::CompressedTexture2D::8464538439208222842::1733532682::1733532683::1::::<><>::
 player.gd::GDScript::-1::1733534056::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::4872476540695307832::1733593832::0::1::::<><>::res://player.gd<>uid://nom3b7w81x1s::::res://New Piskel-1.png.png<>uid://dsujygnh0m88e::::res://New Piskel-5.png.png<>uid://d24hu8uyeti10::::res://New Piskel-2.png.png<>uid://c2cc8xdn7ayh1::::res://New Piskel-3.png.png<>uid://pukaav4w8g1::::res://New Piskel-4.png.png
+player.tscn::PackedScene::4872476540695307832::1733599361::0::1::::<><>::res://player.gd<>uid://nom3b7w81x1s::::res://New Piskel-1.png.png<>uid://dsujygnh0m88e::::res://New Piskel-5.png.png<>uid://d24hu8uyeti10::::res://New Piskel-2.png.png<>uid://c2cc8xdn7ayh1::::res://New Piskel-3.png.png<>uid://pukaav4w8g1::::res://New Piskel-4.png.png
 preview.png::CompressedTexture2D::1043390301515244247::1733597877::1733597877::1::::<><>::
-GEN.gd::GDScript::-1::1733598131::0::1::::<>Node<>::
 tilemap-backgrounds.png::CompressedTexture2D::5665193697904465977::1733534356::1733534356::1::::<><>::
 tilemap-backgrounds_packed.png::CompressedTexture2D::8858457298865162277::1733534356::1733534356::1::::<><>::
 tilemap.png::CompressedTexture2D::6429552886956625364::1733593713::1733593713::1::::<><>::

@@ -6,32 +6,29 @@
 script = ExtResource("1_r02ye")
 
 [node name="TitleLabel" type="Label" parent="."]
-offset_left = -439.0
-offset_top = 8.0
-offset_right = 709.0
-offset_bottom = 50.0
+offset_left = -440.0
+offset_top = 14.0
+offset_right = 708.0
+offset_bottom = 56.0
 theme_type_variation = &"HeaderLarge"
 text = "BLANK FOR NOW"
 horizontal_alignment = 1
 
-[node name="Options" type="VFlowContainer" parent="."]
+[node name="StartButton" type="Button" parent="."]
 offset_left = 19.0
 offset_top = 51.0
-offset_right = 161.0
-offset_bottom = 290.0
-
-[node name="StartButton" type="Button" parent="Options"]
-layout_mode = 2
+offset_right = 65.0
+offset_bottom = 82.0
+scale = Vector2(2.05009, 1.19823)
 text = "Start"
 
-[node name="FullscreenButton" type="Button" parent="Options"]
-layout_mode = 2
-text = "Toggle Fullscreen"
-
-[node name="QuitButton" type="Button" parent="Options"]
-layout_mode = 2
+[node name="QuitButton" type="Button" parent="."]
+offset_left = 19.0
+offset_top = 91.0
+offset_right = 65.0
+offset_bottom = 122.0
+scale = Vector2(2.03513, 1.3045)
 text = "Quit"
 
-[connection signal="pressed" from="Options/StartButton" to="." method="_on_start_button_pressed"]
-[connection signal="pressed" from="Options/FullscreenButton" to="." method="_on_fullscreen_button_pressed"]
-[connection signal="pressed" from="Options/QuitButton" to="." method="_on_quit_button_pressed"]
+[connection signal="pressed" from="StartButton" to="." method="_on_start_button_pressed"]
+[connection signal="pressed" from="QuitButton" to="." method="_on_quit_button_pressed"]
