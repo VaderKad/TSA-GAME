@@ -6,29 +6,25 @@
 script = ExtResource("1_r02ye")
 
 [node name="TitleLabel" type="Label" parent="."]
-offset_left = -440.0
-offset_top = 14.0
-offset_right = 708.0
-offset_bottom = 56.0
+offset_left = -327.0
+offset_top = -2.0
+offset_right = 817.0
+offset_bottom = 78.0
 theme_type_variation = &"HeaderLarge"
+theme_override_font_sizes/font_size = 56
 text = "BLANK FOR NOW"
 horizontal_alignment = 1
 
 [node name="StartButton" type="Button" parent="."]
-offset_left = 19.0
-offset_top = 51.0
-offset_right = 65.0
-offset_bottom = 82.0
+offset_left = 14.0
+offset_top = 72.0
+offset_right = 103.0
+offset_bottom = 150.0
 scale = Vector2(2.05009, 1.19823)
+theme_override_constants/outline_size = 3
+theme_override_constants/h_separation = 8
+theme_override_constants/icon_max_width = 4
+theme_override_font_sizes/font_size = 27
 text = "Start"
 
-[node name="QuitButton" type="Button" parent="."]
-offset_left = 19.0
-offset_top = 91.0
-offset_right = 65.0
-offset_bottom = 122.0
-scale = Vector2(2.03513, 1.3045)
-text = "Quit"
-
 [connection signal="pressed" from="StartButton" to="." method="_on_start_button_pressed"]
-[connection signal="pressed" from="QuitButton" to="." method="_on_quit_button_pressed"]

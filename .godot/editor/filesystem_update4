@@ -1,6 +1,7 @@
+res://main_menu.tscn
 res://level_1.tscn
 res://door.tscn
 res://player.tscn
 res://gem.tscn
-res://main_menu.tscn
 res://Block.tscn
+res://main_menu.gd

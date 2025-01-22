@@ -1508,7 +1508,8 @@ layer_0/tile_data = PackedInt32Array(786457, 983040, 18, 786458, 983040, 18, 786
 metadata/coloer = Color(0, 0, 0, 1)
 
 [node name="Player" parent="." instance=ExtResource("3_kr5fw")]
-position = Vector2(527, 183)
+position = Vector2(527, 184)
+scale = Vector2(2.26771, 2.14782)
 
 [node name="Door" parent="." instance=ExtResource("4_hvikv")]
 position = Vector2(1256, 200)
